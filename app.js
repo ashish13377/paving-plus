@@ -34,7 +34,7 @@ setInterval(() => {
             console.log(`Counter value: ${counter.value}`);
         }
     });
-}, 2000);
+}, 900000);
 
 app.post("/send-mail", (req, res) => {
     const na = req.body.name;
