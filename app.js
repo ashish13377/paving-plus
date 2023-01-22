@@ -137,10 +137,7 @@ const findDb=(req,res,next)=>{
 
 
 app.get('/counter',findDb,(req, res) => {
-
-  
 res.json(req.resp);
-
 });
 
 
