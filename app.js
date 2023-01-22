@@ -16,7 +16,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true });
+mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true }).then((res)=>{
+    console.log("Connected")
+});
 
 // Create counter schema
 const counterSchema = new mongoose.Schema({
