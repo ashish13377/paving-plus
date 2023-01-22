@@ -124,15 +124,22 @@ app.post("/send-newsletter", (req, res) => {
 
 })
 
-app.get('/counter', async(req, res) => {
-
-try{
-//    const sol=await Counter.find();
-   res.json( {text: 'kumar'})
-
-}catch(err){
-res.json(err, {text: 'ashish'})
+const findDb=(req,res,next)=>{
+    Counter.find().then((re)=>{
+        req.resp=re;
+        next();
+    })
+    .catch((err)=>{
+        req.resp=err;
+        next();
+    })
 }
+
+
+app.get('/counter',findDb,(req, res) => {
+
+  
+res.json(req.resp);
 
 });
 
