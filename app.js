@@ -20,6 +20,7 @@ mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true }).then((res)=>{
     console.log("Connected")
 });
 
+
 // Create counter schema
 const counterSchema = new mongoose.Schema({
     value: { type: Number, default: 5000 },
@@ -126,25 +127,6 @@ app.post("/send-newsletter", (req, res) => {
 
 })
 
-const findDb=(req,res,next)=>{
-    Counter.find().then((re)=>{
-        req.resp=re;
-        next();
-    })
-    .catch((err)=>{
-        req.resp=err;
-        next();
-    })
-}
-
-
-app.get('/counter',findDb,(req, res) => {
-res.json(req.resp);
-});
-
-
-
-
 // Static Files
 app.use(express.static('public'));
 // Specific folder example
@@ -162,7 +144,13 @@ app.get('', (req, res) => {
 })
 
 app.get('/about-us', (req, res) => {
-    res.render('about');
+    Counter.findOne((err, counter) => {
+        if (err) {
+            console.log(err);
+        } else {
+            res.render('about', { counter });
+        }
+    });
 })
 
 app.get('/products', (req, res) => {

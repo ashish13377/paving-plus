@@ -306,7 +306,7 @@
                         <div class="col-md-12 col-sm-12 text-left no-img-separator" style="    display: flex;
                         flex-direction: column;
                         align-items: center;" >
-                            <h2 style="padding-bottom: 20px; font-size: 20px;" id="counter"> </h2>
+                            <h2 style="padding-bottom: 20px; font-size: 20px;">Waste plastic upcycled and recycled: <%= counter.value %>Kg</h2>
                             <span class="heading-separator heading-separator-horizontal"></span>
                         </div> <!-- end .col-sm-10  -->
                     </div>
@@ -622,18 +622,7 @@
 
     <!--  END OF FOOTER -->
 
-    <div id="counter"></div>
-    <script>
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', '/counter', true);
-        xhr.onload = function () {
-            if (xhr.status === 200) {
-                var counter = JSON.parse(xhr.responseText);
-                document.getElementById("counter").innerHTML = `Waste plastic upcycled and recycled : ${counter.value} Kg`;
-            }
-        };
-        xhr.send();
-    </script>
+ 
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
