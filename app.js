@@ -127,11 +127,11 @@ app.post("/send-newsletter", (req, res) => {
 app.get('/counter', async(req, res) => {
 
 try{
-   const sol=await Counter.find();
-   res.json(sol)
+//    const sol=await Counter.find();
+   res.json( {text: 'kumar'})
 
 }catch(err){
-res.json(err)
+res.json(err, {text: 'ashish'})
 }
 
 });
