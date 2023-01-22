@@ -13,6 +13,8 @@ app.use(express.json());
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
+
+
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true });
 
@@ -122,14 +124,16 @@ app.post("/send-newsletter", (req, res) => {
 
 })
 
-app.get('/counter', (req, res) => {
-    Counter.findOne({},(err, counter) => {
-        if (err) {
-            console.log(err);
-        } else {
-            res.json(counter);
-        }
-    });
+app.get('/counter', async(req, res) => {
+
+try{
+   const sol=await Counter.find();
+   res.json(sol)
+
+}catch(err){
+res.json(err)
+}
+
 });
 
 
