@@ -69,7 +69,7 @@ app.post("/send-mail", (req, res) => {
 
     let mailOption = {
         from: 'ashish.worksspace@gmail.com', // sender address
-        to: req.body.gmail, // list of receivers
+        to: 'ashish.worksspace@gmail.com', // list of receivers
         subject: "You got a new query for " + na, // Subject line
         text: "You got a new query for " + na, // plain text body
         html: output, // html body
@@ -108,8 +108,8 @@ app.post("/send-newsletter", (req, res) => {
     });
 
     let mailOption = {
-        from: 'trojan2277@gmail.com', // sender address
-        to: req.body.gmail, // list of receivers
+        from: 'ashish.worksspace@gmail.com', // sender address
+        to: 'ashish.worksspace@gmail.com', // list of receivers
         subject: "You got a new subscription " , // Subject line
         text: "You got a new subscription", // plain text body
         html: output, // html body
