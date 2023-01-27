@@ -1,0 +1,552 @@
+
+
+
+
+
+  <diV style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <h5 style=" margin: 0 0 0 0; text-align: center;"> FLOOR TILES <br/> ( DIAMOND SERIES )</h5>
+                <hr style="width:50%; margin-top: 0; 
+                 margin-bottom: 0; border-top: 2px solid #90df3b; ">
+            </diV>
+            <div class="row margin-top-48">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/366.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>CROSS LINER</strong><br/>
+                                <strong>Dimension:  </strong>
+                                370x370 mm <br/>
+                                <strong>Area:  </strong> 
+                                1.52 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                30 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                0.65 Pcs.</div>
+                            <div class="event-time" style="display: flex; align-items: center;">
+                                <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/365.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>CARPET</strong><br/>
+                                <strong>Dimension:  </strong>
+                                300x300 mm <br/>
+                                <strong>Area:  </strong> 
+                                1.00 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                25 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                1 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-32">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/35.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>LINER</strong><br/>
+                                <strong>Dimension:  </strong>
+                                300x300 mm <br/>
+                                <strong>Area:  </strong> 
+                                1 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                25 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                1 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/36.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>36 SQUARE</strong><br/>
+                                <strong>Dimension:  </strong>
+                                300x300 mm <br/>
+                                <strong>Area:  </strong> 
+                                1 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                30 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                1 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-32">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/37.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>DIRECTIONAL</strong><br/>
+                                <strong>Dimension:  </strong>
+                                300x300 mm <br/>
+                                <strong>Area:  </strong> 
+                                1 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                25 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                1 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/38.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>STAR</strong><br/>
+                                <strong>Dimension:  </strong>
+                                300x300 mm <br/>
+                                <strong>Area:  </strong> 
+                                1 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                25 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                1 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <diV style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <h5 style=" margin: 0 0 0 0; text-align: center;"> FLOOR TILES <br/> ( SILVER SERIES )</h5>
+                <hr style="width:50%; margin-top: 0; 
+                 margin-bottom: 0; border-top: 2px solid #90df3b; ">
+            </diV>
+            <div class="row margin-top-48">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/366.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>SCORPIO</strong><br/>
+                                <strong>Dimension:  </strong>
+                                395x290 mm <br/>
+                                <strong>Area:  </strong> 
+                                1.12 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                32 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                0.89 Pc.</div>
+                            <div class="event-time" style="display: flex; align-items: center;">
+                                <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/365.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>CADBURY</strong><br/>
+                                <strong>Dimension:  </strong>
+                                300x300 mm <br/>
+                                <strong>Area:  </strong> 
+                                1.00 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                25 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                1 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-32">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/35.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>LAHER</strong><br/>
+                                <strong>Dimension:  </strong>
+                                250x250 mm <br/>
+                                <strong>Area:  </strong> 
+                                0.69 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                22 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                1.44 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/36.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>100 DOT</strong><br/>
+                                <strong>Dimension:  </strong>
+                                250x250 mm <br/>
+                                <strong>Area:  </strong> 
+                                0.69 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                22 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                1.444 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-32">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/37.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>CAPSULE STEP</strong><br/>
+                                <strong>Dimension:  </strong>
+                                605x280 mm<br/>605x175 mm <br/>
+                                <strong>Area:  </strong> 
+                                2 sqft, 1 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                25 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                0.5 Pcs, 1 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/38.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>SMALL CAPSULE STEP</strong><br/>
+                                <strong>Dimension:  </strong>
+                                300x300 mm <br/>150x150 mm <br/>
+                                <strong>Area:  </strong> 
+                                1 sqft, 0.5 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                25 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                1 Pc, 2 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+<diV style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <h5 style=" margin: 0 0 0 0; text-align: center;"> STONE SERIES </h5>
+                <hr style="width:50%; margin-top: 0; 
+                 margin-bottom: 0; border-top: 2px solid #90df3b; ">
+            </diV>
+            <div class="row margin-top-48">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/366.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>BIG ARCH</strong><br/>
+                                <strong>Dimension:  </strong>
+                                390x190 mm<br/>330x165 mm <br/>
+                                <strong>Area:  </strong> 
+                                0.50 sqft., 0.36 sqft.<br/>
+                                <strong>Thickness: </strong> 
+                                60 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                2 Pcs, 2.75 Pcs.</div>
+                            <div class="event-time" style="display: flex; align-items: center;">
+                                <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/365.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>SMALL ARCH</strong><br/>
+                                <strong>Dimension:  </strong>
+                                390x190 mm<br/>330x165 mm <br/>
+                                <strong>Area:  </strong> 
+                                0.50 sqft., 0.36 sqft.<br/>
+                                <strong>Thickness: </strong> 
+                                60 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                2 Pcs, 2.75 Pcs.</div>
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-48">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/366.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>COBBLE STONE</strong><br/>
+                                <strong>Dimension:  </strong>
+                                112.5X112.5 mm <br/>
+                                <strong>Area:  </strong> 
+                                0.14 sqft<br/>
+                                <strong>Thickness: </strong> 
+                                60 mm<br/>
+                                <strong>Coverage per sqft: </strong> 
+                                7 Pcs.</div>
+                            <div class="event-time" style="display: flex; align-items: center;">
+                                <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+ <diV style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <h5 style=" margin: 0 0 0 0; text-align: center;"> CONCRETE PRODUCTS </h5>
+                <hr style="width:50%; margin-top: 0; 
+                 margin-bottom: 0; border-top: 2px solid #90df3b; ">
+            </diV>
+            <div class="row margin-top-48">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/366.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>KERB STONE</strong><br />
+                                <strong>Dimension: </strong>
+                                450x300 mm <br />
+                                <strong>Area: </strong>
+                                1.45 sqft<br />
+                                <strong>Thickness: </strong>
+                                100 mm<br />
+                                <strong>Coverage per sqft: </strong>
+                                1 Pcs
+                            </div>
+                            <div class="event-time" style="display: flex; align-items: center;">
+                                <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/365.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>KERB STONE</strong><br />
+                                <strong>Dimension: </strong>
+                                300x300 mm <br />
+                                <strong>Area: </strong>
+                                1 sqft<br />
+                                <strong>Thickness: </strong>
+                                100 mm & 150 mm<br />
+                                <strong>Coverage per sqft: </strong>
+                                1 Pc.
+                            </div>
+                            <div class="event-time" style="display: flex; align-items: center;">
+                                <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-48">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/366.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>KERB STONE</strong><br />
+                                <strong>Dimension: </strong>
+                                600x300 mm <br />
+                                <strong>Area: </strong>
+                                2 sqft<br />
+                                <strong>Thickness: </strong>
+                                100 mm<br />
+                                <strong>Coverage per sqft: </strong>
+                                0.50 Pcs.
+                            </div>
+                            <div class="event-time" style="display: flex; align-items: center;">
+                                <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/365.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>SAUCER DRAIN</strong><br />
+                                <strong>Dimension: </strong>
+                                300x300 mm <br />
+                                <strong>Area: </strong>
+                                1 sqft<br />
+                                <strong>Thickness: </strong>
+                                80 mm<br />
+                                <strong>Coverage per sqft: </strong>
+                                1 Pc.
+                            </div>
+                            <div class="event-time" style="display: flex; align-items: center;">
+                                <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-48">
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/366.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>SPEED BRAKER</strong><br />
+                                <strong>Dimension: </strong>
+                                350x350 mm <br />
+                                <strong>Thickness: </strong>
+                                100 mm<br />
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="event-layout-1 theme-custom-box-shadow clearfix">
+                        <figure class="event-img">
+                            <a href="/contact-us">
+                                <img src="images/product/365.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="event-info">
+                            <div class="event-exceprt"><strong>DRAIN COVER</strong><br />
+                                <strong>Dimension: </strong>
+                                18” x 24” <br />
+                                <strong>Thickness: </strong>
+                                50 mm<br />
+                                <div class="event-time" style="display: flex; align-items: center;">
+                                    <a href="/contact-us"><i class="fa fa-envelope"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!--  end .container  -->

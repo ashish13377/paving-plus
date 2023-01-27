@@ -140,7 +140,13 @@ app.set('view engine', 'ejs');
 
 // Navigation
 app.get('', (req, res) => {
-    res.render('index')
+    Counter.findOne((err, counter) => {
+        if (err) {
+            console.log(err);
+        } else {
+            res.render('index', { counter });
+        }
+    });    
 })
 
 app.get('/about-us', (req, res) => {
