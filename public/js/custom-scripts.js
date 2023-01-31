@@ -1227,9 +1227,9 @@ jQuery(function ($) {
         });
 
         map = new GMaps({
-            div: '#map_canvas',
-            lat: -12.043333,
-            lng: -77.028333
+            div: '#map_canvas', 
+            lat: 22.53312923129138,
+            lng: 88.39565291848665
         });
 
     }
