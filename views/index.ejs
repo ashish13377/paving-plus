@@ -24,7 +24,9 @@
     <meta property="twitter:image" content="./assets/images/meta.png">
 
     <!-- The styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" /> 
+    <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
+    <link href="css/utility-classes.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
@@ -38,7 +40,7 @@
     </div> -->
 
 
-    
+
     <!--  HEADER -->
     <header class="main-header clearfix">
         <section class="header-wrapper navgiation-wrapper">
@@ -62,7 +64,7 @@
                             <li>
                                 <a href="/products">Products</a>
                             </li>
-                            
+
                             <li>
                                 <a href="/brochure">Brochure</a>
                             </li>
@@ -78,8 +80,9 @@
     <div class="slider-wrap">
         <div id="slider_1" class="owl-carousel" data-nav="false" data-dots="true" data-autoplay="true"
             data-autoplaytimeout="50000">
-            <div class="slider_item_container" data-bg_img="images/home_1_slider_2.png" data-bg_color="#111111"
-                data-bg_opacity="0.25">
+            <div class="slider_item_container"
+                data-bg_img="https://norwegianscitechnews.com/wp-content/uploads/2022/05/trash1.jpg"
+                data-bg_color="#111111" data-bg_opacity="0.25">
                 <div class="item">
                     <div class="slider-content">
                         <div class="container text-center">
@@ -88,14 +91,15 @@
                                     <div class="col-sm-12 wow fadeInDown" data-wow-duration="1s">
 
                                         <!-- <h3>Stop Burning Natural Fuel</h3> -->
-                                        <h2 class="text-medium" style="    font-size: 50px;
-                                        line-height: 56px;">
-                                            We ARE USING UNSEGREGATED PLASTIC
+                                        <h2 class="text-medium" >
+                                            BUILDING GREEN SOLUTION
                                             <br>
-                                            WASTE TO BUILD GREEN SOLUTION.
+                                            USING UNSEGREGATED<br> WASTE PLASTIC
                                         </h2>
-                                        <a href="/about-us" class="btn btn-theme btn-theme margin-top-24">KNOW MORE</a>
-                                        <a href="/products" class="btn btn-theme btn-theme-invert margin-top-24">OUR PRODUCTS</a>
+                                        <a href="/about-us" class="btn btn-theme btn-theme margin-top-24"
+                                            style="background: #64a71c;">KNOW MORE</a>
+                                        <a href="/products" class="btn btn-theme btn-theme-invert margin-top-24" style="color: #ffffff;
+                                        background-color: #337ab7;">OUR PRODUCTS</a>
                                     </div>
                                 </div> <!-- end .col-sm-12  -->
                             </div> <!-- end .row  -->
@@ -156,12 +160,11 @@
                 </div>
             </div> -->
         </div>
-    </div> 
+    </div>
 
 
     <!--  ABOUT US SECTION  -->
-
-     <section class="section-content-block">
+    <section class="section-content-block">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -189,10 +192,14 @@
                 </div> <!--  end col-lg-6  -->
 
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <video  controls loop muted autoplay="true" class="video5">
+                        <source src="images/video.mp4" type="video/mp4">
+                    </video>
                     <figure class="about-img theme-custom-box-shadow">
-                        <a class="venobox wow bounceIn" data-vbtype="video" data-autoplay="true" 
+                        
+                        <!-- <a class="venobox wow bounceIn" data-vbtype="video" data-autoplay="true"
                             href="https://youtu.be/Eg_dXjo7Bgc"><i class="fa fa-play"></i></a>
-                        <img src="images/achievements.png" alt="about" />
+                        <img src="images/achievements.png" alt="about" /> -->
                     </figure> <!-- end .cause-img  -->
                 </div> <!--  end .col-lg-6 col-md-6 col-sm-12 col-xs-12  -->
 
@@ -206,7 +213,6 @@
     </section> <!--  end .appointment-section  -->
 
     <!--  FEATURED ABOUT US SECTION-->
-
     <section class="section-feat-about-us section-custom-bg" data-bg_img="images/about_us_info_bg.jpg"
         data-bg_color="#264676" data-bg_opacity="0.3">
         <div class="side-background">
@@ -230,7 +236,7 @@
                             </h5>
                             <div class="margin-top-48 text-light-color">
 
-                                <p class="text-light-color padding-top-24">
+                                <p class="text-light-color padding-top-18" style="font-size: 18px;">
                                     Paving+ was founded in 2018 and has since been manufacturing
                                     premium building Materials and providing unique solutions for a
                                     greener construction industry. Our products are designed to reduce the
@@ -238,7 +244,7 @@
                                     circular economy for a greener earth. Every product manufactured
                                     contributes to making the earth cleaner and greener. <br>
                                 </p>
-                                <p class="margin-top-24 text-light-color">
+                                <p class="margin-top-24 text-light-color" style="font-size: 18px;">
                                     <strong>VISION AND MISSION</strong> <br>
                                     “ We want to solve the problem of plastic waste and use waste to
                                     produce quality products to create a sustainable and greener earth."
@@ -254,259 +260,139 @@
     </section> <!--  end .section-about-us -->
 
     <section class="section-content-block3 section-custom-bg" data-bg_img='images/highlight_bg.jpg'
-    data-bg_size='initial' data-bg_position='top left' data-bg_color="#FFFFFF" data-bg_opacity="0.8"
-    style="padding: 53px 0 39px 0 !important;" >
+        data-bg_size='initial' data-bg_position='top left' data-bg_color="#FFFFFF" data-bg_opacity="0.8"
+        style="padding: 53px 0 39px 0 !important;">
 
-    <div class="container">
+        <div class="container">
 
-        <div class="row section-heading-wrapper">
+            <div class="row section-heading-wrapper">
 
-            <div class="col-md-12 col-sm-12 text-center no-img-separator">
-                <h2>Paving+ Core Values </h2>
-                <span class="heading-separator heading-separator-horizontal"></span>
-                <!-- <h4>Pellentesque habitant morbi tristique senectus netus <br /> et malesa dalas fames acturpi solid
+                <div class="col-md-12 col-sm-12 text-center no-img-separator">
+                    <h2>Paving+ Core Values </h2>
+                    <span class="heading-separator heading-separator-horizontal"></span>
+                    <!-- <h4>Pellentesque habitant morbi tristique senectus netus <br /> et malesa dalas fames acturpi solid
                     egestas ac turpis egestas dsexo.</h4> -->
 
-            </div> <!-- end .col-sm-10  -->
+                </div> <!-- end .col-sm-10  -->
 
-        </div>
+            </div>
 
-        <div class="row">
+            <div class="row">
 
-            <div class=" text-center " style="display: flex; justify-content: space-around; ">
+                <div class=" text-center " style="display: flex; justify-content: space-around; ">
 
-                <div class="col">
-                    <img src="images/1.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="images/2.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="images/3.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="images/4.png" alt="">
+                    <div class="col">
+                        <img src="images/1.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/2.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/3.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/4.png" alt="">
+                    </div>
+
                 </div>
 
             </div>
 
-        </div>
+        </div> <!--  end .container  -->
 
-    </div> <!--  end .container  -->
-
-</section>
+    </section>
 
     <!--  SECTION CAUSES   -->
     <section class="section-content-block5 section-custom-bg" data-bg_img="images/green_grass_bg.jpg"
-        data-bg_size='initial' data-bg_position='right bottom' data-bg_opacity="0" >
+        data-bg_size='initial' data-bg_position='right bottom' data-bg_opacity="0">
         <div class="container">
-            <div class="row section-heading-wrapper">
+            <div class="row section-heading-wrapper" style="margin-bottom: 1px;">
                 <div class="col-md-12 col-sm-12 text-center no-img-separator">
-                    <h2>OUR CAUSES</h2>
+                    <h2>OUR BENEFITS</h2>
                     <span class="heading-separator heading-separator-horizontal"></span>
                     <!-- <h4>Increase in the awareness among people about various issues</h4> -->
-                </div> <!-- end .col-sm-10  --> 
+                </div> <!-- end .col-sm-10  -->
             </div> <!-- end .row  -->
         </div> <!--  end .container -->
         <div class="container">
-            <div class="row">
-                <div class="causes-container owl-carousel" data-items="1" >
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="cause-wrapper" >
-                                <div class="col-md-5 col-sm-12 hidden-xs no-padding">
-                                    <figure class="cause-img" >
-                                        <img src="images/social_cause_1.jpg" alt="Cause" style="width: 85%;" />
-                                    </figure> <!-- end .cause-img  -->
-                                </div> <!-- end .col-sm-4  -->
-
-                                <div class="col-md-7 col-sm-12 no-padding">
-                                    <div class="cause-content">
-                                        <div class="cause-text">
-                                            <h5><a href="#">Sustainability and environmental protection</a></h5>
-                                            <p>
-                                                By using plastic waste as a raw material, you can help reduce the amount
-                                                of plastic pollution in the environment and contribute to a more
-                                                sustainable future.
-                                            </p>
-                                        </div> <!--  end .cause-text  -->
-                                        <!--  end .fund-item-text  -->
-                                    </div> <!-- end .cause-content  -->
-                                </div> <!-- end .col-sm-8  -->
-                            </div> <!-- end .cause-wrapper  -->
-                        </div> <!-- end .row  -->
-                    </div> <!-- end .col-md-4  -->
-
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="cause-wrapper">
-                                <div class="col-md-5 col-sm-12 hidden-xs no-padding">
-                                    <figure class="cause-img">
-                                        <img src="images/social_cause_2.jpg" alt="Cause" style="width: 85%;" />
-                                    </figure> <!-- end .cause-img  -->
-                                </div> <!-- end .col-sm-4  -->
-
-                                <div class="col-md-7 col-sm-12 no-padding">
-                                    <div class="cause-content">
-                                        <div class="cause-text">
-                                            <h5><a href="#">Resource conservation</a></h5>
-                                            <p>
-                                                By repurposing plastic waste, you can conserve natural resources such as
-                                                oil and gas that would otherwise be used to produce new plastic.
-
-                                            </p>
-                                        </div> <!--  end .cause-text  -->
-                                        <!--  end .fund-item-text  -->
-                                    </div> <!-- end .cause-content  -->
-                                </div> <!-- end .col-sm-8  -->
-                            </div> <!-- end .cause-wrapper  -->
-                        </div> <!-- end .row  -->
-                    </div> <!-- end .col-md-4  -->
-
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="cause-wrapper">
-                                <div class="col-md-5 col-sm-12 hidden-xs no-padding">
-                                    <figure class="cause-img">
-                                        <img src="images/social_cause_4.jpg" alt="Cause" style="width: 85%;"/>
-                                    </figure> <!-- end .cause-img  -->
-                                </div> <!-- end .col-sm-4  -->
-
-                                <div class="col-md-7 col-sm-12 no-padding">
-                                    <div class="cause-content">
-                                        <div class="cause-text">
-                                            <h5><a href="#">Job creation</a></h5>
-                                            <p>
-                                                By creating new jobs in the manufacturing and construction industries,
-                                                you can help stimulate economic growth and reduce unemployment.
-                                            </p>
-                                        </div> <!--  end .cause-text  -->
-                                        <!--  end .fund-item-text  -->
-                                    </div> <!-- end .cause-content  -->
-                                </div> <!-- end .col-sm-8  -->
-                            </div> <!-- end .cause-wrapper  -->
-                        </div> <!-- end .row  -->
-                    </div> <!-- end .col-md-4  -->
-
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="cause-wrapper">
-                                <div class="col-md-5 col-sm-12 hidden-xs no-padding">
-                                    <figure class="cause-img">
-                                        <img src="images/social_cause_3.jpg" alt="Cause" style="width: 85%;"/>
-                                    </figure> <!-- end .cause-img  -->
-                                </div> <!-- end .col-sm-4  -->
-
-                                <div class="col-md-7 col-sm-12 no-padding">
-                                    <div class="cause-content">
-                                        <div class="cause-text">
-                                            <h5><a href="#">Affordable housing</a></h5>
-                                            <p>
-                                                By producing building materials from plastic waste, you can help make
-                                                housing more affordable for low-income families and individuals.
-                                            </p>
-                                        </div> <!--  end .cause-text  -->
-                                        <!--  end .fund-item-text  -->
-                                    </div> <!-- end .cause-content  -->
-                                </div> <!-- end .col-sm-8  -->
-                            </div> <!-- end .cause-wrapper  -->
-                        </div> <!-- end .row  -->
-                    </div> <!-- end .col-md-4  -->
-
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="cause-wrapper">
-                                <div class="col-md-5 col-sm-12 hidden-xs no-padding">
-                                    <figure class="cause-img">
-                                        <img src="images/social_cause_7.jpg" alt="Cause" style="width: 85%;"/>
-                                    </figure> <!-- end .cause-img  -->
-                                </div> <!-- end .col-sm-4  -->
-
-                                <div class="col-md-7 col-sm-12 no-padding">
-                                    <div class="cause-content">
-                                        <div class="cause-text">
-                                            <h5><a href="#">Community development</a></h5>
-                                            <p>
-                                                By working with local governments and organizations, you can help to
-                                                revitalize communities by providing new jobs and affordable housing.
-                                            </p>
-                                        </div> <!--  end .cause-text  -->
-                                        <!--  end .fund-item-text  -->
-                                    </div> <!-- end .cause-content  -->
-                                </div> <!-- end .col-sm-8  -->
-                            </div> <!-- end .cause-wrapper  -->
-                        </div> <!-- end .row  -->
-                    </div> <!-- end .col-md-4  -->
-
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="cause-wrapper">
-                                <div class="col-md-5 col-sm-12 hidden-xs no-padding">
-                                    <figure class="cause-img">
-                                        <img src="images/social_cause_6.jpg" alt="Cause" style="width: 85%;"/>
-                                    </figure> <!-- end .cause-img  -->
-                                </div> <!-- end .col-sm-4  -->
-
-                                <div class="col-md-7 col-sm-12 no-padding">
-                                    <div class="cause-content">
-                                        <div class="cause-text">
-                                            <h5><a href="#">Education and awareness</a></h5>
-                                            <p>
-                                                By raising awareness about the importance of plastic waste management
-                                                and recycling, you can help educate the public about the importance of
-                                                protecting the environment and preserving natural resources for future
-                                                generations.
-                                            </p>
-                                        </div> <!--  end .cause-text  -->
-                                        <!--  end .fund-item-text  -->
-                                    </div> <!-- end .cause-content  -->
-                                </div> <!-- end .col-sm-8  -->
-                            </div> <!-- end .cause-wrapper  -->
-                        </div> <!-- end .row  -->
-                    </div> <!-- end .col-md-4  -->
-
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="cause-wrapper">
-                                <div class="col-md-5 col-sm-12 hidden-xs no-padding">
-                                    <figure class="cause-img">
-                                        <img src="images/social_cause_5.jpg" alt="Cause" style="width: 85%;"/>
-                                    </figure> <!-- end .cause-img  -->
-                                </div> <!-- end .col-sm-4  -->
-
-                                <div class="col-md-7 col-sm-12 no-padding">
-                                    <div class="cause-content">
-                                        <div class="cause-text">
-                                            <h5><a href="#">Innovation and Technology</a></h5>
-                                            <p>
-                                                By developing new technology to convert plastic waste into building
-                                                materials, you can help spur innovation and development in the industry.
-                                            </p>
-                                        </div> <!--  end .cause-text  -->
-                                        <!--  end .fund-item-text  -->
-                                    </div> <!-- end .cause-content  -->
-                                </div> <!-- end .col-sm-8  -->
-                            </div> <!-- end .cause-wrapper  -->
-                        </div> <!-- end .row  -->
-                    </div> <!-- end .col-md-4  -->
+            <div class="section-content">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div class="text-center box-shadow11 mb-30 bg-green p-30">
+                    <a href="#" class="">
+                      <img src="images/water.png" width="70" alt="">
+                    </a>
+                    <h4 class="font-weight-600 mt-20  text-white">WATERPROOF</h4>
+                    <p class="text-white">  Paving + does not allow water to pass through the walls and make sure that there is no problem of water leakage, dampness and efflorescence in your structures.</p>
+                  </div>
                 </div>
-            </div> <!-- end .row  -->
-        </div> <!-- end .container  -->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div class="text-center box-shadow11 mb-30 bg-green p-30">
+                    <a href="#" class="">
+                      <img src="images/lightweight.png" width="70" alt="">
+                    </a>
+                    <h4 class="font-weight-600 mt-20  text-white">LIGHTWEIGHT</h4>
+                    <p class="text-white">Paving + are lighter in weight which decreases the overall mass of structure, increases the efficiency of work while saving your money and precious time.</p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div class="text-center box-shadow11 mb-30 bg-green p-30">
+                    <a href="#" class="">
+                      <img src="images/lowcost.png" width="70" alt="">
+                    </a>
+                    <h4 class="font-weight-600 mt-20  text-white">LOW COST</h4>
+                    <p class="text-white">  Paving + reduces the overall construction cost by up to 20% and saves additional waterproofing cost and repairment cost of your wall structures.</p>
+                  </div>
+                </div>
+    
+                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div class="text-center box-shadow11 mb-30 bg-green p-30">
+                    <a href="#" class="">
+                      <img src="images/recycle.png" width="70" alt="">
+                    </a>
+                    <h4 class="font-weight-600 mt-20  text-white">RECYCLABLE</h4>
+                    <p class="text-white">  Paving + is recyclable, even after demolishing your structure we can again recycle Paving + demolition waste in new reusable Bricks reducing your demolished waste.</p>
+                  </div>
+                </div>
+    
+                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div class="text-center box-shadow11 mb-30 bg-green p-30">
+                    <a href="#" class="">
+                      <img src="images/ecof.png" width="70" alt="">
+                    </a>
+                    <h4 class="font-weight-600 mt-20  text-white">ECO-FRIENDLY</h4>
+                    <p class="text-white"> Paving + are 100% made by recycling the waste material to consume huge amount of municipal and industrial waste with zero residue and low carbon emission.<br></p>
+                  </div>
+                </div>
+    
+                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div class="text-center box-shadow11 mb-30 bg-green p-30">
+                    <a href="#" class="">
+                      <img src="images/nont.png" width="70" alt="">
+                    </a>
+                    <h4 class="font-weight-600 mt-20  text-white">NON-TOXIC</h4>
+                    <p class="text-white">  Paving + technology is clean and eco-friendly, designed to provide a healthy and safe working environment and sustainable solutions to our partners and stakeholders.<br></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </section> <!-- end .cause-section-1  -->
 
-    
+
     <!--   COUNTER SECTION -->
     <section class="section-content-block section-secondary-bg" style="padding: 34px 0 0px 0;">
         <div class="container wow fadeInUp">
             <div class="row" style="    display: flex;
             justify-content: center;">
                 <div class="col-sm-12">
-                    <div class="row section-heading-wrapper" > 
+                    <div class="row section-heading-wrapper">
 
                         <div class="col-md-12 col-sm-12 text-left no-img-separator" style="    display: flex;
                         flex-direction: column;
-                        align-items: center;" >
-                            <h2 style="padding-bottom: 20px; font-size: 20px;">Waste plastic upcycled and recycled: <%= counter.value %>Kg</h2>
+                        align-items: center;">
+                            <h2 style="padding-bottom: 20px; font-size: 20px;">Waste plastic upcycled and recycled: <%=
+                                    counter.value %>Kg</h2>
                             <span class="heading-separator heading-separator-horizontal"></span>
                         </div> <!-- end .col-sm-10  -->
                     </div>
@@ -514,181 +400,141 @@
             </div>
         </div>
     </section>
-    <section class="section-content-block section-secondary-bg" style="padding: 3px 0 34px 0;">
 
+    <section class="section-content-block section-secondary-bg" style="padding: 0px 0 0px 0;">
         <div class="container wow fadeInUp">
-            <div class="row">
-                <div class="col-sm-4">
+            <div class="row" style="    display: flex;
+            justify-content: center;">
+                <div class="col-sm-12">
                     <div class="row section-heading-wrapper">
-                        <div class="col-md-12 col-sm-12 text-left no-img-separator">
-                            <h2>Achievements</h2>
+
+                        <div class="col-md-12 col-sm-12 text-left no-img-separator" style="    display: flex;
+                        flex-direction: column;
+                        align-items: center;">
+                            <h2 style="padding-bottom: 20px;">Achievements</h2>
                             <span class="heading-separator heading-separator-horizontal"></span>
-                            <h4>We are the people working since 2018 to build Sustainability and environmental
-                                protection.
-                            </h4>
                         </div> <!-- end .col-sm-10  -->
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="col-sm-8">
-                    <div class="row margin-top-24">
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="counter-block-2 counter-border">
-                                <i class="icon fa fa-sun-o text-primary-color"></i>
-                                <div class="count-info">
-                                    <span class="counter">315</span>
-                                    <span class="counter-postfix">+</span>
-                                    <p class="text-capitalize">International Awards</p>
-                                </div>
+    <section class="section-content-block section-secondary-bg" style="padding: 0px 0 34px 0;">
+        <div class="container wow fadeInUp">
+            <div class="row" style="display: flex; justify-content: center;">
+                <div class="row margin-top-24">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="counter-block-2 counter-border">
+                            <i class="icon fa fa-sun-o text-primary-color"></i>
+                            <div class="count-info">
+                                <span class="counter">315</span>
+                                <span class="counter-postfix">+</span>
+                                <p class="text-capitalize">International Awards</p>
                             </div>
-                        </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+                        </div>
+                    </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
 
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="counter-block-2 counter-border">
-                                <i class="icon fa fa-smile-o  text-primary-color"></i>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="counter-block-2 counter-border">
+                            <i class="icon fa fa-smile-o  text-primary-color"></i>
 
-                                <div class="count-info">
-                                    <span class="counter">7000</span>
-                                    <p class="text-capitalize">Dedicated Volunteers</p>
-                                </div>
+                            <div class="count-info">
+                                <span class="counter">7000</span>
+                                <p class="text-capitalize">Dedicated Volunteers</p>
                             </div>
-                        </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+                        </div>
+                    </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
 
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="counter-block-2 counter-border">
-                                <i class="icon fa fa-forumbee text-primary-color"></i>
-                                <div class="count-info">
-                                    <span class="counter">95</span>
-                                    <span class="counter-postfix">%</span>
-                                    <p class="text-capitalize">Successful Campaigns</p>
-                                </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="counter-block-2 counter-border">
+                            <i class="icon fa fa-forumbee text-primary-color"></i>
+                            <div class="count-info">
+                                <span class="counter">95</span>
+                                <span class="counter-postfix">%</span>
+                                <p class="text-capitalize">Successful Campaigns</p>
                             </div>
-                        </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
-                    </div>
+                        </div>
+                    </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="row section-heading-wrapper">
-                    </div>
-                </div>
-                <div class="col-sm-8">
-
-                    <div class="row margin-top-24">
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-
-                            <div class="counter-block-2 counter-border">
-
-                                <i class="icon fa fa-sun-o text-primary-color"></i>
-                                <div class="count-info">
-                                    <span class="counter">315</span>
-                                    <span class="counter-postfix">+</span>
-                                    <p class="text-capitalize">International Awards</p>
-                                </div>
-
+            <div class="row" style="display: flex; justify-content: center;">
+                <div class="row margin-top-24">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="counter-block-2 counter-border">
+                            <i class="icon fa fa-sun-o text-primary-color"></i>
+                            <div class="count-info">
+                                <span class="counter">315</span>
+                                <span class="counter-postfix">+</span>
+                                <p class="text-capitalize">International Awards</p>
                             </div>
+                        </div>
+                    </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
 
-                        </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="counter-block-2 counter-border">
+                            <i class="icon fa fa-smile-o  text-primary-color"></i>
 
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-
-                            <div class="counter-block-2 counter-border">
-
-                                <i class="icon fa fa-smile-o  text-primary-color"></i>
-
-                                <div class="count-info">
-                                    <span class="counter">7000</span>
-                                    <p class="text-capitalize">Dedicated Volunteers</p>
-                                </div>
-
+                            <div class="count-info">
+                                <span class="counter">7000</span>
+                                <p class="text-capitalize">Dedicated Volunteers</p>
                             </div>
+                        </div>
+                    </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
 
-                        </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-
-                            <div class="counter-block-2 counter-border">
-
-                                <i class="icon fa fa-forumbee text-primary-color"></i>
-                                <div class="count-info">
-                                    <span class="counter">95</span>
-                                    <span class="counter-postfix">%</span>
-                                    <p class="text-capitalize">Successful Campaigns</p>
-                                </div>
-
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="counter-block-2 counter-border">
+                            <i class="icon fa fa-forumbee text-primary-color"></i>
+                            <div class="count-info">
+                                <span class="counter">95</span>
+                                <span class="counter-postfix">%</span>
+                                <p class="text-capitalize">Successful Campaigns</p>
                             </div>
-
-                        </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
-
-                    </div>
+                        </div>
+                    </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="row section-heading-wrapper">
-                    </div>
-                </div>
-                <div class="col-sm-8">
-
-                    <div class="row margin-top-24">
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-
-                            <div class="counter-block-2 counter-border">
-
-                                <i class="icon fa fa-sun-o text-primary-color"></i>
-                                <div class="count-info">
-                                    <span class="counter">315</span>
-                                    <span class="counter-postfix">+</span>
-                                    <p class="text-capitalize">International Awards</p>
-                                </div>
-
+            <div class="row" style="display: flex; justify-content: center;">
+                <div class="row margin-top-24">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="counter-block-2 counter-border">
+                            <i class="icon fa fa-sun-o text-primary-color"></i>
+                            <div class="count-info">
+                                <span class="counter">315</span>
+                                <span class="counter-postfix">+</span>
+                                <p class="text-capitalize">International Awards</p>
                             </div>
+                        </div>
+                    </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
 
-                        </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="counter-block-2 counter-border">
+                            <i class="icon fa fa-smile-o  text-primary-color"></i>
 
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-
-                            <div class="counter-block-2 counter-border">
-
-                                <i class="icon fa fa-smile-o  text-primary-color"></i>
-
-                                <div class="count-info">
-                                    <span class="counter">7000</span>
-                                    <p class="text-capitalize">Dedicated Volunteers</p>
-                                </div>
-
+                            <div class="count-info">
+                                <span class="counter">7000</span>
+                                <p class="text-capitalize">Dedicated Volunteers</p>
                             </div>
+                        </div>
+                    </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
 
-                        </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-
-                            <div class="counter-block-2 counter-border">
-
-                                <i class="icon fa fa-forumbee text-primary-color"></i>
-                                <div class="count-info">
-                                    <span class="counter">95</span>
-                                    <span class="counter-postfix">%</span>
-                                    <p class="text-capitalize">Successful Campaigns</p>
-                                </div>
-
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="counter-block-2 counter-border">
+                            <i class="icon fa fa-forumbee text-primary-color"></i>
+                            <div class="count-info">
+                                <span class="counter">95</span>
+                                <span class="counter-postfix">%</span>
+                                <p class="text-capitalize">Successful Campaigns</p>
                             </div>
-
-                        </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
-
-                    </div>
+                        </div>
+                    </div> <!--  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
                 </div>
             </div>
-
         </div>
     </section>
 
 
-    
     <!-- SECTION CTA  -->
-
     <section class="cta-section-2 hidden">
         <div class="container">
             <div class="row">
@@ -705,7 +551,6 @@
     </section>
 
     <!--  EVENTS SECTION  -->
-
     <section class="section-content-block">
         <div class="container wow fadeInUp">
             <div class="row section-heading-wrapper">
@@ -716,7 +561,7 @@
                     <!-- <h4>The association who give their valuable amount to fulfill our mission.</h4> -->
                 </div> <!-- end .col-sm-10  -->
 
-            </div> 
+            </div>
             <div class="row">
                 <div class="logo-layout-1 logo-items owl-carousel margin-top-24" data-dots="false">
                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -749,14 +594,13 @@
                         </div>
                     </div>
 
-                    
+
                 </div> <!-- end .logo-items  -->
             </div> <!-- end row  -->
         </div> <!-- end .container  -->
     </section> <!-- end .event-section-1  -->
 
     <!-- SECTION TESTIMONIAL   -->
-
     <section class="section-content-block section-secondary-bg">
         <div class="container">
             <div class="row section-heading-wrapper" style="    margin-bottom: 0px;">
@@ -768,7 +612,8 @@
             </div>
         </div>
 
-        <div class="container theme-custom-box-shadow section-pure-white-bg margin-top-32" style="margin-top: 13px !important">
+        <div class="container theme-custom-box-shadow section-pure-white-bg margin-top-32"
+            style="margin-top: 13px !important">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="wow fadeInLeft testimonial-container owl-carousel text-left" data-items="1">
@@ -953,7 +798,7 @@
 
     <footer>
         <section class="section-content-block4 footer-widget-area-bg section-custom-bg"
-            data-bg_img="images/footer_bg.jpg" data-bg_opacity="0.5" >
+            data-bg_img="images/footer_bg.jpg" data-bg_opacity="0.5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -1006,7 +851,7 @@
                         </div> <!-- end .footer-widget-area  -->
                     </div> <!-- end .col-md-4  -->
 
-                    
+
                 </div> <!-- end .row  -->
             </div> <!-- end .container  -->
         </section> <!--  end .footer-widget-area-bg -->
@@ -1046,7 +891,7 @@
         </section> <!--  end .footer-area -->
     </footer>
 
-    
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
