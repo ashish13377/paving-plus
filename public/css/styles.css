@@ -854,7 +854,7 @@ a.btn-load-more:hover {
 
 .theme-custom-box-shadow:hover {
   border: 0px solid transparent;
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 25px #77c720a1;
 }
 
 .theme-custom-box-animation {
@@ -1216,6 +1216,14 @@ header.one-page .navbar-nav>li>a span {
 
 .section-content-block4 {
   padding: 50px 0 50px 0;
+  background: #FFFFFF;
+}
+.section-content-block7 {
+  padding: 0px 0 50px 0;
+  background: #FFFFFF;
+}
+.section-content-block6 {
+  padding: 10px 0 50px 0;
   background: #FFFFFF;
 }
 
@@ -2532,7 +2540,8 @@ figure.img-shadow:before {
   text-align: center;
   position: relative;
   overflow: hidden;
-  border: 1px solid #EEE;
+  border-radius: 20px;
+  border: 1px solid #90df3b;
 }
 
 .team-layout-1 .team-member img {
