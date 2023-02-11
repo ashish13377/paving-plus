@@ -108,8 +108,8 @@ app.post("/send-newsletter", (req, res) => {
     });
 
     let mailOption = {
-        from: 'ashish.worksspace@gmail.com', // sender address
-        to: 'ashish.worksspace@gmail.com', // list of receivers
+        from: 'team@paving-plus.com', // sender address
+        to: 'team@paving-plus.com', // list of receivers
         subject: "You got a new subscription " , // Subject line
         text: "You got a new subscription", // plain text body
         html: output, // html body
