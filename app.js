@@ -167,6 +167,14 @@ app.get('/contact-us', (req, res) => {
     res.render('contact')
 })
 
+app.get('/privacy-policy', (req, res) => {
+    res.render('privacy-policy')
+})
+
+app.get('/terms-condition', (req, res) => {
+    res.render('terms-condition')
+})
+
 app.get('/brochure', (req, res) => {
     res.download("./public/doc/Paving+_Brochure_&_Catalogue.pdf")
 })
