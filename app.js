@@ -68,8 +68,8 @@ app.post("/send-mail", (req, res) => {
     });
 
     let mailOption = {
-        from: 'ashish.worksspace@gmail.com', // sender address
-        to: 'ashish.worksspace@gmail.com', // list of receivers
+        from: 'team@paving-plus.com', // sender address
+        to: 'team@paving-plus.com', // list of receivers
         subject: "You got a new query for " + na, // Subject line
         text: "You got a new query for " + na, // plain text body
         html: output, // html body
