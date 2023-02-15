@@ -243,6 +243,18 @@ textarea {
   margin: 0;
 }
 
+
+.team-row-test{
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 200px) and (max-width: 990px) {
+  .team-row-test{
+    display: contents;
+    justify-content: center;
+  }
+}
 /***********************************************************************************************/
 /* 01. GENERAL STYLING  */
 /***********************************************************************************************/

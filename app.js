@@ -11,6 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 const mongoose = require('mongoose');
+mongoose.set("strictQuery", false);
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 
